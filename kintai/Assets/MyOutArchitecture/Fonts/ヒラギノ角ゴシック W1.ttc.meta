@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 44f20fade175e4363b16be919dba55aa
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hiragino Sans
+  fontNames:
+  - Hiragino Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0034386a6f4414eacb03bacc39d97791, type: 3}
+  - {fileID: 12800000, guid: 2a4de1fd86673419ea89b77b398369ef, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

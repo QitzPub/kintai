@@ -1,0 +1,19 @@
+{
+    "name": "QitzOutArchitecture",
+    "references": [
+        "GUID:f84d0abe1dc3946ba85c2dddfe0da675",
+        "GUID:f5cb8de2c1442480680c5afe9fa5953d",
+        "GUID:0c9985ecdd5da486b82c1ec34b01554c",
+        "GUID:f9c5bb209af404886aa8607b71735597",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

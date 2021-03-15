@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1448b2dda720e4537a565694f846f85b, type: 3}
+  m_Name: RanGameObjectDataStore
+  m_EditorClassIdentifier: 
+  blockGroundGameObjectVOs:
+  - name: "\u901A\u5E38\u5730\u9762\u30D6\u30ED\u30C3\u30AF"
+    objectPrefab: {fileID: 2782535182926267143, guid: d0d0c59fd086f6244aa9ed49beb6a4a2,
+      type: 3}
+    runGameObjectType: 1
+    weight: 100
+    canBeDefeatedJump: 0
+    canBeDefeatedWillie: 0
+    score: 0
+    offsetY: 0
+    flipY: 0
+  blockFloatGameObjectVOs:
+  - name: "\u901A\u5E38\u7A7A\u4E2D\u30D6\u30ED\u30C3\u30AF"
+    objectPrefab: {fileID: 2782535182926267143, guid: 2ca0d0d5f328efd40a4e1f8bbac027fe,
+      type: 3}
+    runGameObjectType: 1
+    weight: 100
+    canBeDefeatedJump: 0
+    canBeDefeatedWillie: 0
+    score: 0
+    offsetY: 0
+    flipY: 0
+  coinGameObjectVOs:
+  - name: "\u901A\u5E38\u30B3\u30A4\u30F3"
+    objectPrefab: {fileID: 1198891884086098205, guid: d71b63ea6ea35bf43807af4a8d408725,
+      type: 3}
+    runGameObjectType: 2
+    weight: 200
+    canBeDefeatedJump: 0
+    canBeDefeatedWillie: 0
+    score: 1
+    offsetY: 1
+    flipY: 0
+  - name: "\u30D3\u30C3\u30B0\u30B3\u30A4\u30F3"
+    objectPrefab: {fileID: 1198891884086098205, guid: d65a16e890cc43d41b2ad1e793f5876f,
+      type: 3}
+    runGameObjectType: 2
+    weight: 10
+    canBeDefeatedJump: 0
+    canBeDefeatedWillie: 0
+    score: 5
+    offsetY: 1.2
+    flipY: 0
+  gimmickGroundGameObjectVOs:
+  - name: "\u843D\u3068\u3057\u7A74"
+    objectPrefab: {fileID: 8342008884002912909, guid: 3d44c576cf11e9e4ca4d3d2e975a162e,
+      type: 3}
+    runGameObjectType: 3
+    weight: 25
+    canBeDefeatedJump: 0
+    canBeDefeatedWillie: 0
+    score: 0
+    offsetY: 0.5
+    flipY: 0
+  - name: "\u307F\u304B\u3093\u306E\u76AE"
+    objectPrefab: {fileID: 8342008884002912909, guid: 3a1115de996a8514fb02cc94a8b13a23,
+      type: 3}
+    runGameObjectType: 3
+    weight: 10
+    canBeDefeatedJump: 1
+    canBeDefeatedWillie: 1
+    score: 0
+    offsetY: 0.5
+    flipY: 0
+  - name: "\u7A7A\u304D\u7F36"
+    objectPrefab: {fileID: 8342008884002912909, guid: 1b57e9f6dc51dcc4697899b7232129c2,
+      type: 3}
+    runGameObjectType: 3
+    weight: 10
+    canBeDefeatedJump: 1
+    canBeDefeatedWillie: 1
+    score: 0
+    offsetY: 0.5
+    flipY: 0
+  gimmickFloatGameObjectVOs:
+  - name: "\u307F\u304B\u3093\u306E\u76AE"
+    objectPrefab: {fileID: 8342008884002912909, guid: 3a1115de996a8514fb02cc94a8b13a23,
+      type: 3}
+    runGameObjectType: 3
+    weight: 30
+    canBeDefeatedJump: 1
+    canBeDefeatedWillie: 1
+    score: 0
+    offsetY: 0.5
+    flipY: 0
+  - name: "\u7A7A\u304D\u7F36"
+    objectPrefab: {fileID: 8342008884002912909, guid: 1b57e9f6dc51dcc4697899b7232129c2,
+      type: 3}
+    runGameObjectType: 3
+    weight: 30
+    canBeDefeatedJump: 1
+    canBeDefeatedWillie: 1
+    score: 0
+    offsetY: 0.5
+    flipY: 0
+  gimmickIndependentGameObjectVOs:
+  - name: "\u98DB\u3093\u3067\u304F\u308B\u30DC\u30FC\u30EB"
+    objectPrefab: {fileID: 1198891884086098205, guid: 488051ad59968684891a99ac7302f4b0,
+      type: 3}
+    runGameObjectType: 0
+    weight: 871
+    canBeDefeatedJump: 0
+    canBeDefeatedWillie: 0
+    score: 0
+    offsetY: 0
+    flipY: 0

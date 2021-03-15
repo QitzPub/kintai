@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UniRx;
+using UniRx.Async;
+using UniRx.Triggers;
+using System.Linq;
+using Qitz.ArchitectureCore.UI;
+
+namespace BLDKEscapeOut.View
+{
+    public class #SCRIPTNAME# : BaseView
+    {
+        void Start()
+        {
+        }
+    }
+}

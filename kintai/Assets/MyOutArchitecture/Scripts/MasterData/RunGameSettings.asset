@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a405d65fec440b1b4502bad3d4e169, type: 3}
+  m_Name: RunGameSettings
+  m_EditorClassIdentifier: 
+  GameManageParam:
+    shutdownTime: 1.5
+  PlayerParam:
+    bikeInitSPeed: 0.6
+    bikeSpeed: 1
+    bikeJumpPower: 2
+    bikeAcceleration: 1.5
+    bikeSpeedLimit: 0.15
+    bikeRunningRatio: 1
+    bikeUseFuel: 3.5
+    willieAcceleration: 2
+    willieJumpRate: 1.6
+    willieUseFuel: 10
+    coinLimit: 20
+    willieTime: 1
+    jumpSpeedRate: 0.7
+    decelerateJampRate: 0.25
+    jumpLimit: 2
+    boundRate: 0.5
+    willieGetCoinRate: 2
+    invinsibleRunningMode: 1
+    invinsibleSpeed: 0.1
+    invincibleRunningSpeedUpTime: 2
+    invinsibleRunnningTime: 2
+  StageGenerateParam:
+    floatBlocktMinY: -1.5
+    floatBlockMaxY: 3
+    floatGimmickMinY: -0.5
+    floatGimmickMaxY: 3
+    floatGimmickGenerateDistance_Min: 10
+    floatGimmickGenerateDistance_Max: 50
+    levelParam:
+    - generateDistance: 5
+      ground_blockTypeList:
+      - type: 1
+        weight: 100
+        min: 1
+        max: 1
+      float_blockTypeList:
+      - type: 4
+        weight: 100
+        min: 4
+        max: 8
+    - generateDistance: 50
+      ground_blockTypeList:
+      - type: 1
+        weight: 100
+        min: 5
+        max: 15
+      - type: 2
+        weight: 50
+        min: 2
+        max: 4
+      - type: 3
+        weight: 25
+        min: 1
+        max: 1
+      float_blockTypeList:
+      - type: 4
+        weight: 100
+        min: 4
+        max: 8
+      - type: 5
+        weight: 100
+        min: 4
+        max: 8
+      - type: 6
+        weight: 1000
+        min: 4
+        max: 8
+      - type: 7
+        weight: 6
+        min: 4
+        max: 5

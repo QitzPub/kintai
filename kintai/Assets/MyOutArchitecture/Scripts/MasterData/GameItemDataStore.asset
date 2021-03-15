@@ -1,0 +1,3617 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a82c6efa443134661ba1c4ad2145bb42, type: 3}
+  m_Name: GameItemDataStore
+  m_EditorClassIdentifier: 
+  loadingServerUrl: https://docs.google.com/spreadsheets/d/179sTMF-M7DSLerFPBOO4vkfFzrCAuybRPj4m6y5T36I/edit#gid=519162264
+  gameItems:
+  - id: 1
+    name: "\u30C8\u30EA\u3055\u3093\u306E\u5BB6"
+    sprite: {fileID: 21300000, guid: 9b829e52caa184f33a2cfb2da4463480, type: 3}
+    ratio: 200
+    itemType: WALL_HANGING
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": "\u6642\u9593\u7D4C\u904E\u30BF\u30C3\u30D7"
+    itemEffectTow: 2
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 30
+    "\u50242Y": 100
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 2973579750017147673, guid: cac14a291c329419a97aacbd3dcfed55,
+      type: 3}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": TRUE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 2
+    name: "\u5C0F\u673A"
+    sprite: {fileID: 21300000, guid: 9c22a23ea0e654add90149b3d2777558, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": TRUE
+  - id: 3
+    name: "\u58C1\u639B\u3051\u6642\u8A08"
+    sprite: {fileID: 21300000, guid: 6fe68e894b4be40b786f336b696f821a, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 4
+    name: "\u30DA\u30C3\u30C8\u30DC\u30C8\u30EB"
+    sprite: {fileID: 21300000, guid: f8b83a036de8748699099567c804dfcc, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": TRUE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": "\u98DF\u3079\u7269"
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": TRUE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 5
+    name: "\u30C6\u30A3\u30C3\u30B7\u30E5"
+    sprite: {fileID: 21300000, guid: 4fd4edee83173451cb792aa009547438, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": TRUE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": TRUE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 6
+    name: "\u96FB\u6C17\u30B9\u30BF\u30F3\u30C9"
+    sprite: {fileID: 21300000, guid: 82a2d76f036c44c09afe74a53630dc95, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": TRUE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 7
+    name: "\u30E9\u30A4\u30C8"
+    sprite: {fileID: 21300000, guid: 3feb4bfa099f4443b841b4c8dbcc60ab, type: 3}
+    ratio: 200
+    itemType: WALL_HANGING
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 8
+    name: "\u9262\u690D\u3048\u82B1"
+    sprite: {fileID: 21300000, guid: cc7eb545513974655ac348102b4988ba, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": TRUE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": "\u690D\u7269"
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": TRUE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 9
+    name: "\u9262\u690D\u3048\u690D\u7269"
+    sprite: {fileID: 21300000, guid: 4a9aaf6b23d904b79a9c6c0b96e01349, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": TRUE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": "\u690D\u7269"
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": TRUE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 10
+    name: "\u672C\u68DA"
+    sprite: {fileID: 21300000, guid: 17d9fd9ae629d4c579de46a69944e841, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": TRUE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": "\u672C"
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 11
+    name: "\u30BD\u30D5\u30A1\u30FC"
+    sprite: {fileID: 21300000, guid: 2a87dee4314c844ffb8987b00934d626, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 12
+    name: "\u30C6\u30FC\u30D6\u30EB"
+    sprite: {fileID: 21300000, guid: e4bcf82eec9f546d8ba4f2bc262e2102, type: 3}
+    ratio: 200
+    itemType: FLOOR
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": TRUE
+  - id: 13
+    name: "\u30D4\u30E5\u30A2\u306A\u58C1\u7D19"
+    sprite: {fileID: 21300000, guid: bbaf89d81528c428f949f7eacada6d56, type: 3}
+    ratio: 200
+    itemType: WALL
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 14
+    name: "\u660E\u308B\u3044\u58C1\u7D19"
+    sprite: {fileID: 21300000, guid: df8498f36520540bcad52767df04ed7a, type: 3}
+    ratio: 200
+    itemType: WALL
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 15
+    name: "\u30E2\u30CE\u30C8\u30FC\u30F3\u58C1\u7D19"
+    sprite: {fileID: 21300000, guid: 4587b4108e34c45b88156de6035d3fe9, type: 3}
+    ratio: 200
+    itemType: WALL
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 16
+    name: "\u58C1\u639B\u3051\u68DAA"
+    sprite: {fileID: 21300000, guid: 4a8258f390e8f4c95a817be52d4c654b, type: 3}
+    ratio: 200
+    itemType: WALL_HANGING
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": TRUE
+  - id: 17
+    name: "\u58C1\u639B\u3051\u68DAB"
+    sprite: {fileID: 21300000, guid: bb0f1edc8c6724fc8a7898a75603c81e, type: 3}
+    ratio: 200
+    itemType: WALL_HANGING
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": TRUE
+  - id: 18
+    name: "\u7A7A\u8272\u7A93"
+    sprite: {fileID: 21300000, guid: b875b359278304df6b8552889b47082b, type: 3}
+    ratio: 200
+    itemType: WALL_HANGING
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 19
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 20
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: TRUE
+    belongToGacha: FALSE
+    defaultPossession: TRUE
+    numberOfStories: 1
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": "\u6642\u9593\u7D4C\u904E\u5E78\u305B\u30C9\u30ED\u30C3\u30D7"
+    itemEffectOne: 1
+    "\u50241X": 60
+    "\u50241Y": 5
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 20
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 2
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 21
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 2
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 22
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 3
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 23
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 4
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 24
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 4
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 25
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 6
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 26
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 7
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 27
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 8
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 28
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: c60e235a2d97d402b8451e12880fa458, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 9
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 29
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: b9fb3536b25653a4c8dd563a502888ba, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 10
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 30
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: f899740e6dbe43543bfecfaf2b24754c, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 11
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 31
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 91528cc1027e2d540b666357eee59b91, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 13
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 32
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 3ff9ac3108d600f47b10e5eb544b3263, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 14
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 33
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 5d6de4b2a41506440b3bb83421077e6a, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 15
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 34
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 67bd95846c060a7418e7938533ad4a9b, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 16
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 35
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: dd6cfcb36cb6cdf4fbae99340e948eb1, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 17
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 36
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 06633340c5fe39e48998c8b7906a5565, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 18
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 37
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: ce20c04d2ac05184db35ef57cc528c7d, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 19
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 38
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 9bb34e395aac4864a8a25ecfc9099c76, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 20
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 39
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: f33e021aa968e8145a2c33dbff351c18, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 21
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 40
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 7f29691ad0b5a054aa8e43851f4a8ed5, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 25
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 41
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 82cec98ec1fe47e489f82029b49c94ee, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 28
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 42
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: c808ca3969c10f74b9e473d4f4e148a6, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 29
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 43
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: acf367c8b9828a9458db6d182e3347ec, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 30
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 44
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 2cbc31549fe3dd14484120206cbb6af3, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 31
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 45
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 3f6430a0144787240b4402b495dce53d, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 33
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 46
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 8fe94682178395943b1c1db76d5d2884, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 34
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 47
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: e2514f46a7c27bc428bdea60551488ed, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 35
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 48
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: e462a5c7eb2d8154980c8e887065d5cb, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 36
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 49
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 1311627ea47dc9442940b5cebaea5124, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 37
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 50
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: c1fba28d9050ecc4ca82b39d762ecc6c, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 38
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 51
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: cc973aa1bc757244596df7d1d549165c, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 41
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 52
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 984212922ac8a23449398596c4ccef66, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 42
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 53
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 27c9556ff0cfba944a1953af1c67ad47, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 43
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 54
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 4a09df3df0e4d90419d601684cd0fc76, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 44
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 55
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 57e1213c02b05ee40a287b0a65aca811, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 45
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 56
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: f77c0e8a4094eaa45a89ab348b5478bf, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 47
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 57
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 26450f88a901d204a91f08e126ea816c, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 49
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 58
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: ea33a141f63e39847a84cacea48d43d5, type: 3}
+    ratio: 100
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 50
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 59
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 7c475fe90712eaf42a983502e8934e6c, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 52
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 60
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 6fb6b3ef76f966841978530d5d3927fd, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 53
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 61
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 674e2893c75f04f4d8826fba9428c95a, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 54
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 62
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 978526be6a008b84cb19d17384946a14, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 56
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 63
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: ebd0fcd27a99cc144bb915facb60193d, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 57
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 64
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 9a439b2364cd47d40b4c885a158fde50, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 58
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 65
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: cca35f55748ae1146a86b2f243d8fb4e, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 60
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 66
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 55170a4ed139a53479c40d396dd6728f, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 63
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 67
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 906de8c76bbd79f41bbe42753733725f, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 64
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 68
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: e81a7d9b3ee92634582ef9c188b1c721, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 66
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 69
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 3656b5ed5888aad4e9e28bc6a33d7231, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 67
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 70
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: d63bb9ae85a2909479b9edb3c137948e, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 68
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 71
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: a25c9ad8b02b66b45ac744e075d661a6, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 70
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 72
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: aa3f324c6c0e2dc4795f7fe97033c7ed, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 71
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 73
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 09b9398815587a04a800e8307bad9668, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 73
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 74
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 1cc2fc186b1e68e45bc7a7934253846f, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 74
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 75
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: be37312ddf8c2544a9bf57671a236938, type: 3}
+    ratio: 100
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 75
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 76
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: d17cf8b5644a1cd4183993e9984b0321, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 76
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 77
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 1b50658c785729440b356ae5d6e94719, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 77
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 78
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 0ae3e45b63e653f47a34ce96fcabcaa1, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 78
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 79
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 53196cc43016f6b47bfcdc28b5096a80, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 79
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 80
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: a161eb58824179443a3294e3e747e706, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 80
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 81
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 5f9361660d858834db5122df9d88eb3d, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 81
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 82
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 95552013bc4ff9e4f848f17b774b644b, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 82
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 83
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 08d0822fb7ca9d84fa8739799b12a54e, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 83
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 84
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 9c3e1d2284f21de428fabe9e80cbcd19, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 84
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 85
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 1cf2fe0a1ff844941846d49d4b9c81d6, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 85
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 86
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 650bc307ff3230b4bbfa24117686a497, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 86
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 87
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: bc879a510103a3a4db976586b15a4cd7, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 87
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 88
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: a34d82da2e3c8ac48b3e6bde0214832f, type: 3}
+    ratio: 200
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: N
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 88
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 89
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: c13fee7933287d1498e34046c3bfb36b, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 89
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 90
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 4b9e600e7d2f4a245916c9df32d99b48, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 92
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 91
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 4e1cf837c5d7f614d88748045eaff721, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 93
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 92
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 8cd92989dc11f7f40b7e1d6e5fc21aa4, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 94
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 93
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 21c7b5749665ecb4abdd022c9925ff7a, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 95
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 94
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: a2444652c06fe4a459f11056053a9e9e, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 97
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 95
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: ee525b12f5eec5c4c8c2d1aab590ea44, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 98
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 96
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 2fbde3f5d4090f94d9fbac9c9f050303, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 99
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 97
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 2d0acd29d3dfac94f95e404dc500837b, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 100
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 98
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 0e18223ddcb3bf947a2f526382a44521, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: TRUE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 99
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: cb7351ef4a199ea4e8d606bf751d48d8, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: TRUE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 100
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: d5e8f99f14e623146a5d841060de639a, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: TRUE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 101
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 1f4509915a2203e4da37d579e56fd080, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: TRUE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 102
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 5d8a3457a0be0d54f809f724ae252d08, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: TRUE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 103
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 913bd4382604a854bb9c8019a99ade61, type: 3}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: TRUE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 104
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 296202be899b0794787d1e8638a8e665, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 105
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 0b1fc20ee27afe1468483e409c431704, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 106
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: a7b403af502b75440ae8dbfae455aa84, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 107
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: ba5bd7d91abeef44482f502eeb1a9fc7, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 108
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 5ebd4a55f0d8ad7439ab7d13befaa02b, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 109
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 7139fd973098bae4eb328dcc8591667d, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 110
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: aa5ac604281bcde49bdec6d3762e1665, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 111
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 0ede46db63ea8dc44bb2f0f5574c4cf3, type: 3}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 112
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 21300000, guid: 453ecdc35e81fa847a482f1562883f4d, type: 3}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 113
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 114
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 115
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 50
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: S
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 116
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 117
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 118
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 150
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: R
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 119
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
+  - id: 120
+    name: "\u30EF\u30CB\u30B9\u30BF\u5199\u771F"
+    sprite: {fileID: 0}
+    ratio: 25
+    itemType: PHOTO
+    itemAttribute: 0
+    rarity: SS
+    scaleX: 0
+    scaleY: 0
+    containStory: FALSE
+    belongToGacha: TRUE
+    defaultPossession: FALSE
+    numberOfStories: 0
+    isSpecialItem: FALSE
+    "\u4F7F\u7528\u53EF\u80FD": FALSE
+    "\u95B2\u89A7\u53EF\u80FD": FALSE
+    "\u53CB\u9054\u3068\u904A\u3079\u308B": FALSE
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID1": 
+    itemEffectOne: 0
+    "\u50241X": 0
+    "\u50241Y": 0
+    "\u6A21\u69D8\u66FF\u3048\u52B9\u679CID2": 
+    itemEffectTow: 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u5C5E\u6027": 
+    "\u50242X": 0
+    "\u50242Y": 0
+    "\u30A4\u30F3\u30C6\u30EA\u30A2\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3\u3092\u542B\u3080": FALSE
+    InteriourAnimationView: {fileID: 0}
+    "\u5BB6\u5177\u306E\u4E0A\u306B\u304A\u3051\u308B": FALSE
+    "\u4E0A\u306B\u7269\u3092\u304A\u3051\u308B": FALSE
